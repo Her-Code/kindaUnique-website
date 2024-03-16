@@ -54,9 +54,9 @@ nav{
 
 .hero{
     /* add my photo */
-     background-image: url(sunsetbackground.jpg);
-    height: 500px;
-    background-position: center;
+     background-image: url(images/);
+    height: 2000px;
+    background-position: ;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -86,3 +86,10 @@ img{
 img:hover{
     transform: scaleX(-1);
 }
+.name{
+    font-size: 35px;
+}
+.text-wrapper em{
+    font-size: 30px;
+    color: green;
+}

@@ -1,6 +1,69 @@
 body {
-    background: bisque;
+    background: blanchedalmond;
     font-size: 20px;
     text-align: center;
+    
 
   }
+*{
+    font-family:  "Signika Negative", sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    border-bottom: 1px solid grey;
+
+}
+.navbar__container ul{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    justify-content: space-between;
+    /* height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px; */
+    
+}
+.navbar__links:hover{
+    color: #f77062;
+    transition: all 0.3s ease;
+}
+/* .navbar__container ul li a{
+
+} */
+#navbar__logo{
+    color: #CC5500;
+    background-image: linear-gradient(to top #A30000 0%,#FF5C5C 100%);
+    font-size: 2em;
+    cursor: pointer;
+    /* -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     -moz-text-decoration-color:transparent ;
+     text-decoration: none; */
+}
+.hero{
+    /* add my photo */
+     background-image: url(sunsetbackground.jpg);
+    height: 500px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+
+}
+em{
+    font-size: 40px;
+    font-weight: lighter;
+}

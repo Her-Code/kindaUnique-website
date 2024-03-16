@@ -97,3 +97,14 @@ img:hover{
     list-style-type: disc;
     text-align: left;
 }
+table[
+    border-collapse: seperate; 
+    border-spacing: 0 80px; /* horizontal and vertical values */
+    /* text-align: left; */
+    width: 500px;
+    
+]
+table tr td{
+    padding: 10px;
+    font-weight: lighter;
+}

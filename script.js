@@ -5,3 +5,11 @@
 // const h3 = document.createElement("h3");
 // h3.textContent = "Creating a website with JavaScript";
 // document.querySelector("body").appendChild(h3);
+function createFoot() {
+    var f = document.createElement("FOOTER");
+    document.body.appendChild(f);
+    var p = document.createElement("P");
+    var txt = document.createTextNode("Copyright ©, 2019");
+    p.appendChild(txt);
+    f.appendChild(p);
+ }

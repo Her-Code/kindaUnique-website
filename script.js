@@ -9,7 +9,25 @@ function createFoot() {
     var f = document.createElement("FOOTER");
     document.body.appendChild(f);
     var p = document.createElement("P");
-    var txt = document.createTextNode("Copyright ©, 2019");
+    var txt = document.createTextNode("Copyright ©, 2024");
     p.appendChild(txt);
     f.appendChild(p);
+
+    var a = document.createElement('a'); 
+     
+    // Create the text node for anchor element.
+    var link = document.createTextNode("This is link");
+     
+    // Append the text node to anchor element.
+    a.appendChild(link); 
+     
+    // Set the title.
+    a.title = "Email"; 
+     
+    // Set the href property.
+    a.href = "wanjiku.kahira@gmail.com"; 
+     
+    // Append the anchor element to the body.
+    document.body.prepend(a);
  }
+ 

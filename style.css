@@ -47,7 +47,8 @@ nav{
     cursor: pointer;
     /* -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill
+    -color: transparent;
      -moz-text-decoration-color:transparent ;
      text-decoration: none; */
 }
@@ -55,8 +56,8 @@ nav{
 .hero{
     /* add my photo */
      background-image: url(images/);
-    height: 1000px;
-    background-position: ;
+    height: 700px;
+    background-position:center ;
     display: flex;
     justify-content: center;
     align-items: center;

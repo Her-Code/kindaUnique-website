@@ -30,4 +30,6 @@ function createFoot() {
     // // Append the anchor element to the body.
     // document.body.prepend(a);
  }
+ const element = document.getElementById("p1");
+element.innerHTML = "Let's work together";
  

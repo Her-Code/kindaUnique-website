@@ -1,12 +1,12 @@
 body {
-    background: rgb(248, 239, 226);
+    background: rgb(248, 158, 131);
     font-size: 20px;
     text-align: center;
     
 
   }
 *{
-    font-family:  "Signika Negative", sans-serif;
+    font-family:  "Poppins", sans-serif;
     list-style-type: none;
     text-decoration: none;
     margin: 0;
@@ -59,23 +59,25 @@ nav{
     min-height: 0;
     /* background-position:-209.098px 1.05px; */
     background-position: 50%,50%;
-    padding-top: 268px;
-    padding-bottom: 269px;
+    padding-top: 229px;
+    padding-bottom: 230px;
     background-repeat: no-repeat;
     background-size: cover;
     /* background-size: 1159.2px 651.9px; */
-    background-color: transparent;
+    background-color: black;
     /* background-attachment: fixed; */
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 60px;
-    color: white;
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+    font-family: inherit;
     
 
 }
 em{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: lighter;
 }
 .About h1{

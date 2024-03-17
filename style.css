@@ -55,14 +55,23 @@ nav{
 
 .hero{
     /* add my photo */
-     background-image: url(images/);
-    height: 700px;
-    background-position:center ;
+     background-image: url(images/Shakahira.jpg);
+    min-height: 0;
+    /* background-position:-209.098px 1.05px; */
+    background-position: 50%,50%;
+    padding-top: 268px;
+    padding-bottom: 269px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 1159.2px 651.9px; */
+    background-color: transparent;
+    /* background-attachment: fixed; */
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 60px;
     color: white;
+    
 
 }
 em{

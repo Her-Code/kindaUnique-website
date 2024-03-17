@@ -13,21 +13,21 @@ function createFoot() {
     p.appendChild(txt);
     f.appendChild(p);
 
-    var a = document.createElement('a'); 
+    // var a = document.createElement('a'); 
      
-    // Create the text node for anchor element.
-    var link = document.createTextNode("This is link");
+    // // Create the text node for anchor element.
+    // var link = document.createTextNode("This is link");
      
-    // Append the text node to anchor element.
-    a.appendChild(link); 
+    // // Append the text node to anchor element.
+    // a.appendChild(link); 
      
-    // Set the title.
-    a.title = "Email"; 
+    // // Set the title.
+    // a.title = "Email"; 
      
-    // Set the href property.
-    a.href = "wanjiku.kahira@gmail.com"; 
+    // // Set the href property.
+    // a.href = "wanjiku.kahira@gmail.com"; 
      
-    // Append the anchor element to the body.
-    document.body.prepend(a);
+    // // Append the anchor element to the body.
+    // document.body.prepend(a);
  }
  

@@ -82,12 +82,13 @@ em{
 }
 .About h1{
     font-size: 50px;
+    text-align: center;
 }
 .About span{
     font-weight: lighter;
 }
 img{
-    width: 250px;
+    width: 150px;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
@@ -119,4 +120,14 @@ table[
 table tr td{
     padding: 10px;
     font-weight: lighter;
+}
+.About{
+    margin: 0 auto;
+    padding: 200px;
+}
+.name span{
+    color: white;
+}
+footer {
+    height: 100px;   
 }
